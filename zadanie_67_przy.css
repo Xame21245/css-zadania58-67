@@ -1,0 +1,48 @@
+#p1:first-letter
+{
+color: orange;
+font-size: 122pt;
+}
+#p1
+{
+color:turquoise;
+font-size:20pt;
+}
+
+#p2:first-letter
+{
+color: blue;  
+font-size: 112pt;
+}
+
+#p2
+{
+color:turquoise;
+font-size:21pt;
+}
+
+#h1:first-letter
+{
+color: silver;
+}
+
+#h1
+{
+color: purple;
+}
+
+#p3
+{
+color: blue;
+font-size:25pt;
+}
+
+#p3:first-letter
+{
+font-size: 112pt;
+}
+
+#p3:first-line
+{
+color: red;
+}

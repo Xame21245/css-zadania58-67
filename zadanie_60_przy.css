@@ -1,0 +1,25 @@
+div
+{
+	width:623px;
+	background-color: #00FF00;
+
+}
+#blok1_przybyla:hover
+{
+    background-color: #FFA500;
+    font-size:18mm
+}
+#blok2_przybyla:hover
+{
+    background-color: #0000FF;
+    font-size:18mm
+}
+#blok3_przybyla:hover
+{
+    background-color: #30D5C8;
+    font-size:18mm
+}
+/*
+Hover: odpowaida za zmiany pewnych elementów po najechaniu na nie myszką
+Piotr Przybyła 
+*/

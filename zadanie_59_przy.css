@@ -1,0 +1,31 @@
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+color: red;
+text-decoration: underline;
+}
+div
+{
+color: red;
+font-size: 2cm;
+}
+/*        
+text-decoration: none; - ustawia brak dekoracji tekstu.
+text-decoration: underline; - służy do dodania podkreślenia tekstu.
+Piotr Przybyła
+*/

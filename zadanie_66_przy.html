@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>zad66</title>
+<style>
+p
+ {
+ color:navy;
+ font-size:12pt;
+ }
+#p1:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+#p2:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+#p2:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+#p3:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+
+</style>
+<body>
+<h1><b><u>Pseudoelementy</b></u></h1>
+
+<b><u>:first-line(obejmuje formatowaniem całą pierwszą linię.)</b></u>
+<br>
+Przyklad:
+<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br></p>
+
+<b><u>:after oraz :before(Oba elementy służą do umieszczania tekstu przed i za formatowanym elementem strony.)</b></u>
+<br>
+Przyklad:
+<p id="p2"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br></p>
+<b><u>:first-letter(pozwala na formatowanie pierwszej litery w bloku tekstu.)</b></u>
+<br>
+Przyklad:
+<p id="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br></p>
+</body>
+</html>

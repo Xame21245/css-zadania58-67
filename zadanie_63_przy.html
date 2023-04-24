@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>zad63</title>
+</head>
+<body>
+<b>__________początek teorii :first-child _______</b><br>
+<b><u>Użycie :first-child</b></u> powoduje że pierwszy akapit (znacznik &lt;p&gt;, może być wiele akapitów<br>
+&lt;p&gt; ) w bloku (np. &lt;DIV&gt;), będzie inaczej formatowanu niż pozostałe akapity w tym samym<br>
+bloku ( dla całego dokumentu, czyli dla wszystkich DIV).<br>
+<br>
+<br>
+Dwa pliki
+<ul>
+<li>arkusz styli</li>
+<li>dokument</li>
+</ul>
+współpracują ze sobą.<br>
+<br>
+Przykład poniższy (arkusz styli oraz dokument) realizują:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. dla każdego akapitu ustawia czcionkę 14-punktową.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. pierwszy akapit w bloku DIV będzie wyglądał nieco inaczej, gdyż użyta czcionka<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;będzie pochyła i o wysokości 10 punktów.<br><br><br>
+<u>arkusz styli</u>
+<p style="border: 1px solid black;">
+p<br>
+{<br>
+font-size:14pt;<br>
+}<br>
+p:first-child<br>
+{<br>
+font-size:10pt;<br>
+font-styl:italic;<br>
+}<br>
+</p>
+<u>Dokument</u>
+<p style="border: 1px solid black;">
+&lt;div&gt;<br>
+ &lt;p&gt;Pierwszy akapit w ramach pierwszego bloku DIV&lt;/p&gt;<br>
+ &lt;p&gt;Drugi akapit w ramach pierwszego bloku DIV&lt;/p&gt;<br>
+ &lt;p&gt;Trzeci akapit w ramach pierwszego bloku DIV tutaj wpisz <b>Twoje nazwisko</b>&lt;/p&gt;<br>
+&lt;/div&gt;<br>
+&lt;div&gt;<br>
+ &lt;p&gt;Pierwszy akapit w ramach drugiego bloku DIV&lt;/p&gt;<br>
+ &lt;p&gt;Drugi akapit w ramach drugiego bloku DIV&lt;/p&gt;<br>
+ &lt;p&gt;Trzeci akapit w ramach drugiego bloku DIV<b>-></b> tutaj wpisz <b>Twoje imię</b>&lt;/p&gt;<br>
+&lt;/div&gt;<br>
+
+</p>
+<b>__________koniec teorii :first-child _______</b>
+</body>
+</html>
